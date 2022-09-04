@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
@@ -8,703 +8,616 @@
   <meta name="title" content="Elbrus-Analytics">
   <meta name="description" content="All about your network!" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="images/logos/favicon.png">
 
-  <!-- ========================= CSS here ========================= -->
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta1.min.css" />
-  <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
-  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-  <link rel="stylesheet" href="assets/css/animate.css" />
-  <link rel="stylesheet" href="assets/css/lindy-uikit.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon2.png">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="content-box.css">
+  <link rel="stylesheet" href="animations.css">
+  <link rel="stylesheet" href="contact-form.css">
+  <link rel="stylesheet" href="../skin.css">
 </head>
 
-<body>
-  <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
+<body class="transparent-header">
+  <div id="starting-hub"></div>
+  <header class="fixed-top scroll-change bg-transparent menu-transparent" data-menu-anima="fade-bottom">
+    <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
+      <div class="navbar navbar-main">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle">
+              <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand scroll-hide" href="index.html">
+              <img class="logo-default" src="../images/logos/logo.png" alt="logo" />
+              <img class="logo-retina" src="../images/logos/logo.png" alt="logo" />
+            </a>
+            <a class="navbar-brand scroll-show" href="index.html">
+              <img class="logo-default" src="../images/logos/logo.png" alt="logo" />
+              <img class="logo-retina" src="../images/logos/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <div class="nav navbar-nav navbar-right">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" role="button">Pages<span class="caret"></span></a>
+                  <ul class="dropdown-menu multi-level">
+                    <li><a href="https://github.com/Elbrus-Analytics" target="_blank"
+                        rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://www.instagram.com/elbrusanalytics" target="_blank"
+                        rel="noopener noreferrer">Instagram</a></li>
+                </li>
+              </ul>
+              <li class="dropdown">
+                <a href="#about-us-ref" data-toggle="#about-us-ref" role="button">About us</a>
+              </li>
+              <li class="dropdown">
+                <a href="#team-ref" data-toggle="#team-ref" role="button">Team</a>
+              </li>
+              <li class="dropdown">
+                <a href="#contact-us-ref" data-toggle="#contact-us-ref" role="button">Contact us</a>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <!-- ========================= preloader start ========================= -->
-  <div class="preloader">
-    <div class="loader">
-      <div class="spinner">
-        <div class="spinner-container">
-          <div class="spinner-rotator">
-            <div class="spinner-left">
-              <div class="spinner-circle"></div>
-            </div>
-            <div class="spinner-right">
-              <div class="spinner-circle"></div>
-            </div>
+  <div class="section-bg-image parallax-window text-center section-middle-img" data-natural-height="1080"
+    data-natural-width="1920" data-parallax="scroll" data-image-src="images/starting-hub_image3.png">
+    <div class="container content">
+      <hr class="space" />
+      <h1 class="white">Analyse with Elbrus Analytics</h1>
+      <p id="tagline">Better insights, better traffic flow, better network</p>
+      <hr class="space" />
+      <a href="https://github.com/Elbrus-Analytics" target="_blank" rel="noopener noreferrer"
+        class="circle-button btn btn-lg">Get started</a>
+      <hr class="space s" />
+      <div class="middle-img" data-anima="fade-bottom" data-anima-time="1000"><img id="middle-img"
+          src="images/frontend.png" width="90%" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="section-empty">
+    <div class="container content">
+      <div class="row">
+        <hr class="space" />
+        <div class="col-md-4">
+          <div class="advs-box advs-box-top-icon" data-anima="scale-up" data-trigger="hover">
+            <i>
+              <img class="fa fa-calendar-minus-o icon circle anima" id="icons" src="images/icons/monitoring_icon.png" />
+            </i>
+            <h3>Monitor Your Network</h3>
+            <p>
+              The larger your Network, the more likely you are to be attacked, therefore, having an Overview is
+              esential!
+            </p>
+            <a href="https://github.com/Elbrus-Analytics" target="_blank" rel="noopener noreferrer"
+              class="circle-button btn-border btn btn-lg">See more</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="advs-box advs-box-top-icon" data-anima="scale-up" data-trigger="hover">
+            <i>
+              <img class="fa fa-calendar-minus-o icon circle anima" id="icons" src="images/icons/database_icon.png" />
+            </i>
+            <h3>Analytics And Insights</h3>
+            <p>
+              In order to keep on track with your Network, Analysis and Insights are needed. <br> Elbrus-Analytics
+              provides these for you.
+            </p>
+            <a href="https://github.com/Elbrus-Analytics" target="_blank" rel="noopener noreferrer"
+              class="circle-button btn-border btn btn-lg">See more</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="advs-box advs-box-top-icon" data-anima="scale-up" data-trigger="hover">
+            <i>
+              <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                src="images/icons/visualisation_icon.png" />
+            </i>
+            <h3>Visualise Your Data</h3>
+            <p>
+              Complex data is difficult to understand for non-techies. Good-looking diagrams are the solution.
+            </p>
+            <a href="https://github.com/Elbrus-Analytics" target="_blank" rel="noopener noreferrer"
+              class="circle-button btn-border btn btn-lg">See more</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- ========================= preloader end ========================= -->
-
-  <!-- ========================= hero-section-wrapper-5 start ========================= -->
-  <section id="home" class="hero-section-wrapper-5">
-
-    <!-- ========================= header-6 start ========================= -->
-    <header class="header header-6">
-      <div class="navbar-area">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">
-                  <img src="assets/img/logo/logo.png" alt="Logo" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent6" aria-controls="navbarSupportedContent6"
-                  aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent6">
-                  <ul id="nav6" class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                      <a class="page-scroll active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#feature">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- navbar collapse -->
-              </nav>
-              <!-- navbar -->
-            </div>
-          </div>
-          <!-- row -->
-        </div>
-        <!-- container -->
-      </div>
-      <!-- navbar area -->
-    </header>
-    <!-- ========================= header-6 end ========================= -->
-
-    <!-- ========================= hero-5 start ========================= -->
-    <div class="hero-section hero-style-5 img-bg" style="background-image: url('assets/img/hero/hero-5/hero-bg.svg')">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="hero-content-wrapper">
-              <h2 class="mb-30 wow fadeInUp" data-wow-delay=".2s">ELBRUS-ANALYTICS</h2>
-              <p class="mb-30 wow fadeInUp" data-wow-delay=".4s">All about your network!</p>
-              <a href="https://github.com/Elbrus-Analytics" class="button button-lg radius-50 wow fadeInUp"
-                data-wow-delay=".6s">Get Started <i class="lni lni-chevron-right"></i> </a>
-            </div>
-          </div>
-          <div class="col-lg-6 align-self-end">
-            <div class="hero-image wow fadeInUp" data-wow-delay=".5s">
-              <img src="assets/img/hero/hero-5/hero-img.svg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ========================= hero-5 end ========================= -->
-
-  </section>
-  <!-- ========================= hero-section-wrapper-6 end ========================= -->
-
-  <!-- ========================= feature style-5 start ========================= -->
-  <section id="feature" class="feature-section feature-style-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xxl-5 col-xl-5 col-lg-7 col-md-8">
-          <div class="section-title text-center mb-60">
-            <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">Specializing In</h3>
-            <p class="wow fadeInUp" data-wow-delay=".4s">Need help managing your network infrastructure? Elbrus has
-              everything you need!</p>
-          </div>
-        </div>
-      </div>
-
+  <div class="section-bg-image bg-top no-paddings-y" style="background-image: url(../images/bg-gradient.png)">
+    <div class="container content">
+      <hr class="space" />
       <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-            <div class="icon">
-              <i class="bi bi-bezier"></i>
-              <svg width="110" height="72" viewBox="0 0 110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M110 54.7589C110 85.0014 85.3757 66.2583 55 66.2583C24.6243 66.2583 0 85.0014 0 54.7589C0 24.5164 24.6243 0 55 0C85.3757 0 110 24.5164 110 54.7589Z"
-                  fill="#EBF4FF" />
-              </svg>
-            </div>
-            <div class="content">
-              <h5>Traffic Capturing</h5>
-              <p>Our solution captures the traffic at the firewall of your network.</p>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <hr class="space" />
+          <h2>We improve your analysis and insights!</h2>
+          <p>
+            Our goal is to create a product that simplifies the monitoring of a network, which helps to visualise its
+            utilisation and to find bottlenecks.
+          </p>
+          <p>
+            We provide both complex, technically detailed representations and simple, easy-to-understand graphics.
+            This grants deep insights into your network-utilisation, component-utilisation and traffic flow.
+          </p>
+          <p>
+            The core functions of our system are the following:
+          </p>
+          <hr class="space m" />
+          <ul class="fa-ul text-m text-color">
+            <li><i class="fa-li fa fa-check-circle-o"></i>Reading out the components and uplinks utilisations via SNMP
+            </li>
+            <li><i class="fa-li fa fa-check-circle-o"></i>A VCS for device configurations</li>
+            <li><i class="fa-li fa fa-check-circle-o"></i>Determining the VLAN utilisation</li>
+            <li><i class="fa-li fa fa-check-circle-o"></i>Determining the distribution of individual network protocols
+            </li>
+            <li><i class="fa-li fa fa-check-circle-o"></i>A visualised, practical representation via a web interface
+            </li>
+            <li><i class="fa-li fa fa-check-circle-o"></i>An API</li>
+            <li><i class="fa-li fa fa-check-circle-o"></i>And many more.</li>
+          </ul>
+          <hr class="space l" />
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-            <div class="icon">
-              <i class="bi bi-cpu"></i>
-              <svg width="110" height="72" viewBox="0 0 110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M110 54.7589C110 85.0014 85.3757 66.2583 55 66.2583C24.6243 66.2583 0 85.0014 0 54.7589C0 24.5164 24.6243 0 55 0C85.3757 0 110 24.5164 110 54.7589Z"
-                  fill="#EBF4FF" />
-              </svg>
-            </div>
-            <div class="content">
-              <h5>Analysis</h5>
-              <p>The data is processed and analyzed using industry-standard analysis tools.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-            <div class="icon">
-              <i class="bi bi-graph-up"></i>
-              <svg width="110" height="72" viewBox="0 0 110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M110 54.7589C110 85.0014 85.3757 66.2583 55 66.2583C24.6243 66.2583 0 85.0014 0 54.7589C0 24.5164 24.6243 0 55 0C85.3757 0 110 24.5164 110 54.7589Z"
-                  fill="#EBF4FF" />
-              </svg>
-            </div>
-            <div class="content">
-              <h5>Visualisation</h5>
-              <p>All statistics can be accessed over a webinterface.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-            <div class="icon">
-              <i class="bi bi-key"></i>
-              <svg width="110" height="72" viewBox="0 0 110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M110 54.7589C110 85.0014 85.3757 66.2583 55 66.2583C24.6243 66.2583 0 85.0014 0 54.7589C0 24.5164 24.6243 0 55 0C85.3757 0 110 24.5164 110 54.7589Z"
-                  fill="#EBF4FF" />
-              </svg>
-            </div>
-            <div class="content">
-              <h5>Security</h5>
-              <p>Detect an attack early to better protect your network.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-            <div class="icon">
-              <i class="bi bi-hdd"></i>
-              <svg width="110" height="72" viewBox="0 0 110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M110 54.7589C110 85.0014 85.3757 66.2583 55 66.2583C24.6243 66.2583 0 85.0014 0 54.7589C0 24.5164 24.6243 0 55 0C85.3757 0 110 24.5164 110 54.7589Z"
-                  fill="#EBF4FF" />
-              </svg>
-            </div>
-            <div class="content">
-              <h5>History</h5>
-              <p>All data is stored for further <br>processing.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-            <div class="icon">
-              <i class="bi bi-exclamation-octagon"></i>
-              <svg width="110" height="72" viewBox="0 0 110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M110 54.7589C110 85.0014 85.3757 66.2583 55 66.2583C24.6243 66.2583 0 85.0014 0 54.7589C0 24.5164 24.6243 0 55 0C85.3757 0 110 24.5164 110 54.7589Z"
-                  fill="#EBF4FF" />
-              </svg>
-            </div>
-            <div class="content">
-              <h5>Alerts</h5>
-              <p>Be notified immediately when problems are detected on your network.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- ========================= feature style-5 end ========================= -->
-
-  <!-- ========================= about style-4 start ========================= -->
-  <section id="about" class="about-section about-style-4">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-xl-5 col-lg-6">
-          <div class="about-content-wrapper">
-            <div class="section-title mb-30">
-              <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Controlled network traffic for the future</h3>
-              <p class="wow fadeInUp" data-wow-delay=".3s">Stop wasting time and money searching for bottlenecks in your
-                network. Elbrus Analytics guarantees,</p>
-            </div>
-            <ul>
-              <li class="wow fadeInUp" data-wow-delay=".35s">
-                <i class="lni lni-checkmark-circle"></i>
-                Analytics easy to understand with accurate reports about any shortages.
-              </li>
-              <li class="wow fadeInUp" data-wow-delay=".4s">
-                <i class="lni lni-checkmark-circle"></i>
-                Extensive information about the most visited IP addresses and domains.
-              </li>
-              <li class="wow fadeInUp" data-wow-delay=".45s">
-                <i class="lni lni-checkmark-circle"></i>
-                Access-point resilience studies.
-              </li>
-            </ul>
-            <a href="#0" class="button button-lg radius-10 wow fadeInUp" data-wow-delay=".5s">Learn More</a>
-          </div>
-        </div>
-        <div class="col-xl-7 col-lg-6">
-          <div class="about-image text-lg-right wow fadeInUp" data-wow-delay=".5s">
-            <img src="assets/img/about/about-4/about-img.svg" alt="">
-          </div>
+        <div id="imac-div">
+          <hr class="space" />
+          <img id="imac-picture" src="../images/imac.png" alt="" />
+          <hr class="space" />
         </div>
       </div>
     </div>
-  </section>
-  <!-- ========================= about style-4 end ========================= -->
-
-  <!-- ========================= team style-4 start ========================= -->
-  <section id="team" class="ud-team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="mb-60 ud-section-title mx-auto text-center">
-            <span>Our Team</span>
-            <h2>Meet The Team</h2>
+  </div>
+  <hr class="space l" />
+  <div class="section-empty">
+    <div class="container content" id="about-us-ref" data-hs-anchor="true">
+      <div class="row vertical-row" id="about-us-div">
+        <div class="col-md-7 col-sm-6">
+          <div class="title-base text-left">
+            <br>
+            <h2>About us</h2>
             <p>
-              Meet our team of young, aspiring students!
+              The network plays a cruial part in todays communication and process cycle. Especially modern companys and
+              organizations depend a lot on it.<br><br> Nevertheless most businesses economize when it comes to hardware
+              and software, which results in overlaoded network components, loss of data and network outages.<br><br>
+              It is self-explanatory that network administrators lack on insight into their network and that searching
+              for bottlenecks without using a suitable tool can be really stressing and painful.<br><br>
+              To counteract this issue we started the Project "Elbrus-Analytics" which provides a deep insight into your
+              network.
             </p>
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xl-3 col-lg-3 col-sm-0">
-
-        </div>
-        <div class="col-xl-3 col-lg-3 col-sm-6">
-          <div class="ud-single-team wow fadeInUp" data-wow-delay=".1s">
-            <div class="ud-team-image-wrapper">
-              <div class="ud-team-image">
-                <img src="assets/img/team/team-01.png" alt="team" />
-              </div>
-
-              <img src="assets/img/team/dotted-shape.svg" alt="shape" class="shape shape-1" />
-              <img src="assets/img/team/shape-2.svg" alt="shape" class="shape shape-2" />
-            </div>
-            <div class="ud-team-info">
-              <h5>Anzola Fabio</h5>
-              <h6>Project head</h6>
-            </div>
-            <ul class="ud-team-socials">
-              <!-- <li>
-                      <a href="https://twitter.com/anzolafabio04">
-                        <i class="lni lni-twitter-filled"></i>
-                      </a>
-                    </li> -->
-              <li>
-                <a href="https://www.instagram.com/anzola.fabio/">
-                  <i class="lni lni-instagram-filled"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/fabio-anzola">
-                  <i class="lni lni-github-original"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/fabio-anzola">
-                  <i class="lni lni-linkedin-original"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-sm-6">
-          <div class="ud-single-team wow fadeInUp" data-wow-delay=".15s">
-            <div class="ud-team-image-wrapper">
-              <div class="ud-team-image">
-                <img src="assets/img/team/team-02.png" alt="team" />
-              </div>
-
-              <img src="assets/img/team/dotted-shape.svg" alt="shape" class="shape shape-1" />
-              <img src="assets/img/team/shape-2.svg" alt="shape" class="shape shape-2" />
-            </div>
-            <div class="ud-team-info">
-              <h5>Tomsik Markus</h5>
-              <h6>Deputy project head</h6>
-            </div>
-            <ul class="ud-team-socials">
-              <!--<li>
-                      <a href="https://twitter.com/">
-                        <i class="lni lni-twitter-filled"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/_markus.lat/">
-                        <i class="lni lni-instagram-filled"></i>
-                      </a>
-                    </li>-->
-              <li>
-                <a href="https://github.com/mmarkmos">
-                  <i class="lni lni-github-original"></i>
-                </a>
-              </li>
-              <!--<li>
-                      <a href="https://www.linkedin.com/in/">
-                        <i class="lni lni-linkedin-original"></i>
-                      </a>
-                    </li>-->
-            </ul>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-sm-0">
-
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xl-1 col-lg-1 col-sm-0">
-
-        </div>
-        <div class="col">
-          <div class="ud-single-team wow fadeInUp" data-wow-delay=".2s">
-            <div class="ud-team-image-wrapper">
-              <div class="ud-team-image">
-                <img src="assets/img/team/team-03.png" alt="team" />
-              </div>
-
-              <img src="assets/img/team/dotted-shape.svg" alt="shape" class="shape shape-1" />
-              <img src="assets/img/team/shape-2.svg" alt="shape" class="shape shape-2" />
-            </div>
-            <div class="ud-team-info">
-              <h5>Hiermann Alexander</h5>
-              <h6>Project staff</h6>
-            </div>
-            <ul class="ud-team-socials">
-              <!-- <li>
-                      <a href="https://twitter.com/GameAlexZocktYT">
-                        <i class="lni lni-twitter-filled"></i>
-                      </a>
-                    </li> -->
-              <li>
-                <a href="https://www.instagram.com/alex.hier/">
-                  <i class="lni lni-instagram-filled"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/alex-hiermann">
-                  <i class="lni lni-github-original"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/alexander-hiermann">
-                  <i class="lni lni-linkedin-original"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="ud-single-team wow fadeInUp" data-wow-delay=".2s">
-            <div class="ud-team-image-wrapper">
-              <div class="ud-team-image">
-                <img src="assets/img/team/team-04.png" alt="team" />
-              </div>
-
-              <img src="assets/img/team/dotted-shape.svg" alt="shape" class="shape shape-1" />
-              <img src="assets/img/team/shape-2.svg" alt="shape" class="shape shape-2" />
-            </div>
-            <div class="ud-team-info">
-              <h5>Schmidt Tobias</h5>
-              <h6>Project staff</h6>
-            </div>
-            <ul class="ud-team-socials">
-              <li>
-                <a href="https://twitter.com/Tobiii66694619">
-                  <i class="lni lni-twitter-filled"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/Smiddyyy">
-                  <i class="lni lni-github-original"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="ud-single-team wow fadeInUp" data-wow-delay=".25s">
-            <div class="ud-team-image-wrapper">
-              <div class="ud-team-image">
-                <img src="assets/img/team/team-05.png" alt="team" />
-              </div>
-
-              <img src="assets/img/team/dotted-shape.svg" alt="shape" class="shape shape-1" />
-              <img src="assets/img/team/shape-2.svg" alt="shape" class="shape shape-2" />
-            </div>
-            <div class="ud-team-info">
-              <h5>Unfried Robert</h5>
-              <h6>Project staff</h6>
-            </div>
-            <ul class="ud-team-socials">
-              <li>
-                <a href="https://twitter.com/UnfRobert">
-                  <i class="lni lni-twitter-filled"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/robert_unf/">
-                  <i class="lni lni-instagram-filled"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/RobertUNF">
-                  <i class="lni lni-github-original"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/robert-unfried-a008b5224/">
-                  <i class="lni lni-linkedin-original"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-xl-1 col-lg-1 col-sm-0">
-
+        <div class="col-md-5 col-sm-6" id="about-us-logo">
+          <img src="images/logos/favicon.png" width="300px" alt="" />
         </div>
       </div>
     </div>
-  </section>
-  <!-- ========================= team style-4 end ========================= -->
-
-  <!-- ========================= contact-style-3 start ========================= -->
-  <section id="contact" class="contact-section contact-style-3">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xxl-5 col-xl-5 col-lg-7 col-md-10">
-          <div class="section-title text-center mb-50">
-            <h3 class="mb-15">Get in touch</h3>
-            <p>Contact us with your problems and we will get the right solution for your network!</p>
-          </div>
+  </div>
+  <div class="section-empty">
+    <div class="container content" id="stats-table-ref">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 boxed-inverse shadow-1">
+          <h4 class="text-m">Capturing Quantity</h4>
+          <div class="counter-box-simple text-color text-bold"><span class="counter text-l" data-to="7000">1</span><span
+              class="text-s">Gigabit/s</span></div>
+          <hr class="space xs" />
+          <p>of traffic capturing.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 boxed-inverse shadow-1">
+          <h4 class="text-m">Report Generation</h4>
+          <div class="counter-box-simple text-color text-bold"><span class="counter text-l" data-to="300">96</span><span
+              class="text-s"></span></div>
+          <hr class="space xs" />
+          <p>reports delivering per day.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 boxed-inverse shadow-1">
+          <h4 class="text-m">Software Deployment</h4>
+          <div class="counter-box-simple text-color text-bold"><span class="counter text-l"
+              data-to="900">20,600+</span><span class="text-s"></span></div>
+          <hr class="space xs" />
+          <p>lines of code written.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 boxed-inverse shadow-1">
+          <h4 class="text-m">Charts & Graphs</h4>
+          <div class="counter-box-simple text-color text-bold"><span class="counter text-l"
+              data-to="2500">20+</span><span class="text-s"></span></div>
+          <hr class="space xs" />
+          <p>of highly detailed diagrams.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="contact-form-wrapper">
-            <form action="https://send.pageclip.co/TsiEcud6fSGRmUigTDiucg4CdnAFeA1C/Elbrus" class="pageclip-form"
-              method="post">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="single-input">
-                    <input type="text" id="name" name="name" class="form-input" placeholder="Name">
-                    <i class="lni lni-user"></i>
-                  </div>
+      <br data-hs-anchor="true" />
+    </div>
+    <div class="section-empty section-item text-center">
+      <div class="container content" id="team-ref">
+        <h2>Meet the Team</h2>
+        <p>
+          Meet our team of young, aspiring students!
+        </p>
+        <br>
+        <div class="row" id="team-row">
+          <div class="col-md-3">
+            <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+              <a class="img-box">
+                <img class="anima" src="images/team/team-01.png" alt="" />
+              </a>
+              <div class="content-box">
+                <h2>Fabio Anzola</h2>
+                <h4>Project Head</h4>
+                <div class="btn-group social-group">
+                  <a target="_blank" href="https://github.com/fabio-anzola">
+                    <i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/github_logo_black.png" />
+                    </i>
+                  </a>
+                  <a target="_blank" href="https://www.linkedin.com/in/fabio-anzola/"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/linkedin_logo_black" />
+                    </i></a>
+                  <a target="_blank" href="https://www.instagram.com/anzola.fabio/"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/instagram_logo_black.png" />
+                    </i></a>
                 </div>
-                <div class="col-md-6">
-                  <div class="single-input">
-                    <input type="email" id="email" name="email" class="form-input" placeholder="Email">
-                    <i class="lni lni-envelope"></i>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="single-input">
-                    <input type="text" id="number" name="number" class="form-input" placeholder="Number">
-                    <i class="lni lni-phone"></i>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="single-input">
-                    <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject">
-                    <i class="lni lni-text-format"></i>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="single-input">
-                    <textarea name="message" id="message" class="form-input" placeholder="Message" rows="6"></textarea>
-                    <i class="lni lni-comments-alt"></i>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-button">
-                    <button type="submit" class="button"> <i class="lni lni-telegram-original"></i> Submit</button>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="contact-map mt-30">
-                  <iframe id="gmap_canvas"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.8105774332403!2d16.39565561587391!3d48.19100105541715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d075e036ac393%3A0x9326dcbe2d63c038!2sHTL%20Rennweg!5e0!3m2!1sen!2sat!4v1655635189319!5m2!1sen!2sat"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                </div>
-              </div>
-            </form>
-          </div>
-
-        </div>
-
-        <div class="col-lg-4">
-          <div class="left-wrapper">
-            <div class="row">
-              <div class="col-lg-12 col-md-6">
-                <div class="single-item">
-                  <div class="icon">
-                    <i class="lni lni-phone"></i>
-                  </div>
-                  <div class="text">
-                    <p>Currently we don't have a number,</p>
-                    <p>we will update it asap!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 col-md-6">
-                <div class="single-item">
-                  <div class="icon">
-                    <i class="lni lni-envelope"></i>
-                  </div>
-                  <div class="text">
-                    <p>info@elbrus-analytics.at</p>
-                    <p>elbrus-analytics.at</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 col-md-6">
-                <div class="single-item">
-                  <div class="icon">
-                    <i class="lni lni-map-marker"></i>
-                  </div>
-                  <div class="text">
-                    <p>Rennweg 89b,<br> 1030 Vienna, Austria</p>
-                  </div>
-                </div>
+                <p></p>
               </div>
             </div>
-
+          </div>
+          <div class="col-md-3">
+            <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+              <a class="img-box">
+                <img class="anima" src="images/team/team-02.png" alt="" />
+              </a>
+              <div class="content-box">
+                <h2>Markus Tomsik</h2>
+                <h4>Deputy Project Head</h4>
+                <div class="btn-group social-group">
+                  <a target="_blank" href="#"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/instagram_logo_black.png" />
+                    </i></a>
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="space" />
+        <div class="row" id="team-row">
+          <div class="col-md-3">
+            <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+              <a class="img-box">
+                <img class="anima" src="images/team/team-03.png" alt="" />
+              </a>
+              <div class="content-box">
+                <h2>Alexander Hiermann</h2>
+                <h4>Network Specialist</h4>
+                <div class="btn-group social-group">
+                  <a target="_blank" href="https://github.com/alex-hiermann"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/github_logo_black.png" />
+                    </i>
+                  </a>
+                  <a target="_blank" href="https://www.linkedin.com/in/alexander-hiermann/"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/linkedin_logo_black" /></i>
+                  </a>
+                  <a target="_blank" href="https://www.instagram.com/alex.hier/"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/instagram_logo_black.png" />
+                    </i></a>
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+              <a class="img-box">
+                <img class="anima" src="images/team/team-04.png" alt="" />
+              </a>
+              <div class="content-box">
+                <h2>Tobias Schmidt</h2>
+                <h4>Backend Developer</h4>
+                <div class="btn-group social-group">
+                  <a target="_blank" href="https://github.com/Smiddyyy"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/github_logo_black.png" />
+                    </i></i></a>
+                  <a target="_blank" href="https://twitter.com/Tobiii66694619"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/twitter_logo_black.png" />
+                    </i></a>
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+              <a class="img-box">
+                <img class="anima" src="images/team/team-05.png" alt="" />
+              </a>
+              <div class="content-box">
+                <h2>Robert Unfried</h2>
+                <h4>Frontend Developer</h4>
+                <div class="btn-group social-group">
+                  <a target="_blank" href="https://github.com/RobertUNF"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/github_logo_black.png" />
+                    </i></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/robert-unfried-a008b5224/"><i
+                      class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/linkedin_logo_black" />
+                    </i></a>
+                  <a target="_blank" href="https://www.instagram.com/robert_unf/"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/instagram_logo_black.png" />
+                    </i></i></a>
+                  <a target="_blank" href="https://twitter.com/UnfRobert"><i class="fa fa-facebook">
+                      <img class="fa fa-calendar-minus-o icon circle anima" id="icons"
+                        src="images/icons/twitter_logo_black.png" />
+                    </i></a>
+                </div>
+                <p></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- ========================= contact-style-3 end ========================= -->
-
-  <!-- ========================= clients-logo start ========================= -->
-  <section class="clients-logo-section pt-100 pb-100">
-    <div class="container">
-      <div class="row">
-        <div class="sponsors">
-          <div class="htl3r-logo" data-wow-delay=".2s">
-            <img src="assets/img/clients/htl3r.png" alt="HTL Rennweg Logo" class="w-100">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ========================= clients-logo end ========================= -->
-
-  <!-- ========================= footer style-4 start ========================= -->
-  <footer class="footer footer-style-4">
-    <div class="container">
-      <div class="widget-wrapper">
+    <div class="section-bg-image" style="background-image:url(../images/bg-23.jpg)">
+      <div class="container content" id="support-container">
         <div class="row">
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
-              <div class="logo">
-                <a href="#0"> <img src="assets/img/logo/logo.png" alt="" width="180px"> </a>
+          <div class="col-md-6 col-center text-center boxed-inverse shadow-1">
+            <h4>Support our project</h4>
+            <p>
+              Are you interested in sponsoring us and our project?
+            </p>
+            <a href="#contact-us-ref" class="circle-button btn btn-sm">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="space" />
+    <a id="contact-us-ref" data-hs-anchor="true"></a>
+    <div class="container content">
+      <iframe id="google-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.8105774332403!2d16.39565561587391!3d48.19100105541715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d075e036ac393%3A0x9326dcbe2d63c038!2sHTL%20Rennweg!5e0!3m2!1sen!2sat!4v1655635189319!5m2!1sen!2sat"
+        frameborder="0" scrolling="no"></iframe>
+      <hr class="space" />
+      <div class="row proporzional-row" id="contact-us-now-div">
+        <div class="col-md-6 col-sm-12">
+          <h2 class="text-color">Contact us now</h2>
+          <hr class="space s" />
+          <form action="http://www.framework-y.com/scripts/php/contact-form.php" class="form-box form-ajax"
+            method="post">
+            <div class="row">
+              <div class="col-md-4">
+                <p>Name</p>
+                <input id="name" name="name" placeholder="" type="text" class="form-control form-value" required>
               </div>
-              <p class="desc">Wanna be up-to-date? Follow us on social media and see what we are currently working on!
-              </p>
-              <ul class="socials">
-                <!-- <li> <a href="#0"> <i class="lni lni-facebook-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-twitter-filled"></i> </a> </li> -->
-                <li> <a href="https://www.instagram.com/elbrusanalytics/"> <i class="lni lni-instagram-filled"></i> </a>
-                </li>
-                <!-- <li> <a href="#0"> <i class="lni lni-linkedin-original"></i> </a> </li> -->
+              <div class="col-md-4">
+                <p>Email</p>
+                <input id="email" name="email" placeholder="" type="email" class="form-control form-value" required>
+              </div>
+              <div class="col-md-4">
+                <p>Phone</p>
+                <input id="phone" name="phone" placeholder="" type="text" class="form-control form-value">
+              </div>
+            </div>
+            <hr class="space xs" />
+            <div class="row">
+              <div class="col-md-12">
+                <p>Your message</p>
+                <textarea id="messagge" name="messagge" placeholder="" class="form-control form-valu e"
+                  required></textarea>
+                <hr class="space s" />
+                <a class="circle-button btn-sm btn"><i class="fa fa-send-o"></i>Send messagge</a>
+              </div>
+            </div>
+          </form>
+
+        </div>
+        <div class="boxed-inverse shadow-1 col-sm-12" id="contact-div">
+          <div>
+            <div>
+              <ul>
+                <ul id="contact-list">
+                  <i><img src="images/icons/phone_icon.png" width="25px" /></i>
+                  +43 (0) 699 25550678
+                </ul>
+                <ul id="contact-list">
+                  <i><img src="images/icons/email_icon.png" width="25px" /></i>
+                  info@elbrus-analytics.at
+                </ul>
+                <ul>
+                  <i><img src="images/icons/empty_field.png" width="25px" /></i>
+                </ul>
+                <ul id="contact-list">
+                  <i><img src="images/icons/house_icon.png" width="25px" /></i>
+                  Rennweg 89b,
+                </ul>
+                <ul id="contact-list">
+                  <i><img src="images/icons/empty_field.png" width="25px" /></i>
+                  1030 Vienna,
+                </ul>
+                <ul id="contact-list">
+                  <i><img src="images/icons/empty_field.png" width="25px" /></i>
+                  Austria
+                </ul>
               </ul>
             </div>
           </div>
-          <!-- <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6 col-sm-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".3s">
-                <h6>Quick Link</h6>
-                <ul class="links">
-                  <li> <a href="#0">Home</a> </li>
-                  <li> <a href="#0">About</a> </li>
-                  <li> <a href="#0">Service</a> </li>
-                  <li> <a href="#0">Testimonial</a> </li>
-                  <li> <a href="#0">Contact</a> </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
-                <h6>Services</h6>
-                <ul class="links">
-                  <li> <a href="#0">Web Design</a> </li>
-                  <li> <a href="#0">Web Development</a> </li>
-                  <li> <a href="#0">Seo Optimization</a> </li>
-                  <li> <a href="#0">Blog Writing</a> </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".5s">
-                <h6>Download App</h6>
-                <ul class="download-app">
-                  <li>
-                    <a href="#0">
-                      <span class="icon"><i class="lni lni-apple"></i></span>
-                      <span class="text">Download on the <b>App Store</b> </span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#0">
-                      <span class="icon"><i class="lni lni-play-store"></i></span>
-                      <span class="text">GET IT ON <b>Play Store</b> </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div> -->
+          <hr class="space m" />
+          <div class="btn-group social-group btn-group-icons" id="contact-buttons">
+            <a href="https://github.com/Elbrus-Analytics" data-social="share-github" target="_blank"
+              rel="noopener noreferrer">
+              <i><img src="images/icons/github_logo_black.png" /></i>
+            </a>
+            <a href="https://www.instagram.com/elbrusanalytics" data-social="share-instagram" target="_blank"
+              rel="noopener noreferrer">
+              <i><img src="images/icons/instagram_logo_black.png" /></i>
+            </a>
+          </div>
         </div>
       </div>
-      <div class="copyright-wrapper wow fadeInUp" data-wow-delay=".2s">
-        <p>Design and Developed by <a href="https://uideck.com" rel="nofollow" target="_blank">UIdeck</a> Built-with <a
-            href="https://uideck.com" rel="nofollow" target="_blank">Lindy UI Kit</a></p>
-      </div>
     </div>
-  </footer>
-  <!-- ========================= footer style-4 end ========================= -->
-
-  <!-- ========================= scroll-top start ========================= -->
-  <a href="#" class="scroll-top"> <i class="lni lni-chevron-up"></i> </a>
-  <!-- ========================= scroll-top end ========================= -->
-
-
-  <!-- ========================= JS here ========================= -->
-  <script src="assets/js/bootstrap-5.0.0-beta1.min.js"></script>
-  <script src="assets/js/tiny-slider.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <hr class="space xl" />
+    <!-- <div class="section-empty no-paddings-y text-center">
+    <div class="container content">
+      <h2>Check our pricing!</h2>
+      <hr class="space" />
+      <div class="row">
+        <div class="col-md-4">
+          <div class="list-group pricing-table">
+            <div class="list-group-item pricing-price">
+              <span>$</span>19<span>/mon</span>
+            </div>
+            <div class="list-group-item pricing-name">
+              <h3>Base plan</h3>
+            </div>
+            <div class="list-group-item">
+              15 versions
+            </div>
+            <div class="list-group-item">
+              All files included
+            </div>
+            <div class="list-group-item">
+              Custom design and coding
+            </div>
+            <div class="list-group-item">
+              Money back guarante
+            </div>
+            <div class="list-group-item">
+              24/7 support
+            </div>
+            <div class="list-group-item pricing-btn">
+              <a class="btn btn-sm btn-border circle-button" href="#"> Order now </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="list-group pricing-table">
+            <div class="list-group-item pricing-price">
+              <span>$</span>49<span>/mon</span>
+            </div>
+            <div class="list-group-item pricing-name">
+              <h3>Silver plan</h3>
+            </div>
+            <div class="list-group-item">
+              15 versions
+            </div>
+            <div class="list-group-item">
+              All files included
+            </div>
+            <div class="list-group-item">
+              Custom design and coding
+            </div>
+            <div class="list-group-item">
+              Money back guarante
+            </div>
+            <div class="list-group-item">
+              24/7 support
+            </div>
+            <div class="list-group-item pricing-btn">
+              <a class="btn btn-sm btn-border circle-button" href="#"> Order now </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="list-group pricing-table">
+            <div class="list-group-item pricing-price">
+              <span>$</span>99<span>/mon</span>
+            </div>
+            <div class="list-group-item pricing-name">
+              <h3>Gold plan</h3>
+            </div>
+            <div class="list-group-item">
+              15 versions
+            </div>
+            <div class="list-group-item">
+              All files included
+            </div>
+            <div class="list-group-item">
+              Custom design and coding
+            </div>
+            <div class="list-group-item">
+              Money back guarante
+            </div>
+            <div class="list-group-item">
+              24/7 support
+            </div>
+            <div class="list-group-item pricing-btn">
+              <a class="btn btn-sm btn-border circle-button" href="#"> Order now </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="space" />
+      <div class="row">
+        <div class="col-md-9 col-center">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+          </p>
+        </div>
+      </div>
+      <hr class="space" />
+    </div>
+  </div> -->
+    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    <footer class="footer-base">
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 footer-center text-left">
+              <img width="120" src="../images/logos/logo.png" alt="" />
+            </div>
+            <div class="col-md-6 footer-left text-left">
+              <p>Rennweg 89b, 1030 Vienna, Austria.</p>
+              <div class="tag-row">
+                <span>info@elbrus-analytics.at</span>
+                <span>+43 (0) 699 25550678</span>
+              </div>
+            </div>
+            <div class="col-md-3 footer-left text-right text-left-sm">
+              <div class="btn-group social-group btn-group-icons">
+                <a href="https://github.com/Elbrus-Analytics" data-social="share-github" target="_blank"
+                  rel="noopener noreferrer">
+                  <i><img src="images/icons/github_logo.png" /></i>
+                </a>
+                <a href="https://www.instagram.com/elbrusanalytics" data-social="share-instagram" target="_blank"
+                  rel="noopener noreferrer">
+                  <i><img src="images/icons/instagram_logo.png" /></i>
+                </a>
+                <a href="mailto:info@elbrus-analytics.at" data-social="share-email" target="_blank"
+                  rel="noopener noreferrer">
+                  <i><img src="images/icons/email_icon_white.png" /></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row copy-row">
+          <div class="col-md-12 copy-text">
+            <a href="http://elbrus-analytics.at/" target="_blank" rel="noopener noreferrer">© 2022 Elbrus-Analytics -
+              All
+              about your network
+              <span id="credit">Website created and modified by Alexander Hiermann</span>
+            </a>
+            <br>
+            <a href="http://www.freepik.com" target="_blank" rel="noopener noreferrer">
+              <span id="credit">Icons designed by rawpixel.com / Freepik</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>

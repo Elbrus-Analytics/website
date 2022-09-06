@@ -2451,11 +2451,6 @@ ul li .fa-li.fa-square {
     left: -20px;
 }
 
-@media (max-width: 767px) {
-    .niche-box-team:hover .img-box img {
-        transform: translateY(25px) scale(1.2) !important;
-    }
-}
 
 .porfolio-bar a {
     font-size: 14px;

@@ -7467,3 +7467,7 @@ div.title-icon p {
         white-space: nowrap;
     }
 }
+
+.head_title {
+  text-shadow: 0 0 1px #0a2356, 0 0 1px #0a2356, 0 0 1px #0a2356;
+}

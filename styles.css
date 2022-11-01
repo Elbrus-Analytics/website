@@ -7319,7 +7319,6 @@ header {
 
 #google-map {
     width: 100%;
-    height: calc(100vh - 600px);
 }
 
 h1,
@@ -7375,10 +7374,14 @@ div.title-icon p {
 }
 
 #imac-div {
-    position: absolute;
+    position: sticky;
     right: 0px;
-    width: 50%;
+    width: 100%;
     max-width: 50%;
+}
+
+#imac-picture {
+    max-width: 157%;
 }
 
 #icons {
@@ -7470,4 +7473,15 @@ div.title-icon p {
 
 .head_title {
   text-shadow: 0 0 1px #0a2356, 0 0 1px #0a2356, 0 0 1px #0a2356;
+}
+
+.map_google {
+    border: none;
+    height: 350px;
+}
+
+#statistic-listing {
+    line-height: 27px;
+    font-weight: 500;
+    color: #000;
 }

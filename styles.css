@@ -7265,7 +7265,7 @@ header {
         text-align: center;
     }
 
-    #stats-table-ref div div div{
+    #stats-table-ref div div div {
         margin-bottom: 5px;
     }
 
@@ -7424,16 +7424,14 @@ div.title-icon p {
     }
 
     #contact-div {
-        justify-content: center;
-        margin: auto;
-        padding-right: 50%;
-        padding-left: 0px;
-        margin-left: 25%;
+        width: 265px;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
     }
 
-    #contact-list {
-        text-align: center;
-        justify-content: center;
+    #contact-list i {
+        word-wrap: break-word !important;
     }
 
     #contact-list {

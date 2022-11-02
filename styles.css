@@ -7522,3 +7522,9 @@ div.title-icon p {
         max-width: unset;
     }
 }
+
+@media (max-width: 1200px) and (min-width: 993px ) {
+    #footer-contact-logos {
+        display: flex;
+    }
+}

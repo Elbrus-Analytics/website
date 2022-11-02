@@ -129,7 +129,7 @@
       </div>
     </div>
   </div>
-  <div class="section-bg-image bg-top no-paddings-y" style="background-image: url(../images/bg-gradient.png)">
+  <div class="section-bg-image bg-top no-paddings-y">
     <div class="container content">
       <br><br class="responsive-br"><br class="responsive-br"><br>
       <div class="row">
@@ -351,32 +351,27 @@
       </div>
     </div>
     <br><br>
-    <a id="contact-us-ref" data-hs-anchor="true"></a>
+    <div class="container content" id="map">
+      <script>
+        var map
+        var coordinates = { lat: 48.19126588475009, lng: 16.397755667336323 };
+        function initMap() {
+          map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: coordinates,
+          });
+          new google.maps.Marker({
+            position: coordinates,
+            map,
+            title: "Our headquarters: HTL Rennweg",
+          });
+        }
+        window.initMap = initMap;
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYQyd3NFM4aAbLXXFqJrr9LNvJ490LUGI&callback=initMap"
+        defer></script>
+    </div>
     <div class="container content">
-      <iframe id="google-map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.8105774332403!2d16.39565561587391!3d48.19100105541715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d075e036ac393%3A0x9326dcbe2d63c038!2sHTL%20Rennweg!5e0!3m2!1sen!2sat!4v1655635189319!5m2!1sen!2sat"
-        frameborder="0" scrolling="no" height="400"></iframe>
-      <!-- <script>
-          var map
-          var coordinates = { lat: 48.19126588475009, lng: 16.397755667336323 };
-          function initMap() {
-            map = new google.maps.Map(document.getElementById("map"), {
-              zoom: 18,
-              center: coordinates,
-            });
-    
-            new google.maps.Marker({
-              position: coordinates,
-              map,
-              title: "Our headquarters: HTL Rennweg",
-            });
-          }
-    
-          window.initMap = initMap;
-        </script>
-        <script id="google-map" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYQyd3NFM4aAbLXXFqJrr9LNvJ490LUGI&callback=initMap"
-          defer></script> -->
-      <br><br>
       <div class="row proporzional-row" id="contact-us-now-div">
         <div class="col-md-6 col-sm-12">
           <h2 class="text-color">Contact us now</h2>
@@ -408,7 +403,6 @@
               </div>
             </div>
           </form>
-
         </div>
         <div class="boxed-inverse shadow-1 col-sm-12" id="contact-div">
           <div>
@@ -458,7 +452,7 @@
       </div>
     </div>
     <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
-    <footer class="footer-base" >
+    <footer class="footer-base">
       <div class="content">
         <div class="container">
           <div class="row">
@@ -492,7 +486,8 @@
         </div>
         <div class="row copy-row">
           <div class="col-md-12 copy-text">
-            <a href="http://elbrus-analytics.at/" target="_blank" rel="noopener noreferrer">© 2022 Elbrus-Analytics - All about your network
+            <a href="http://elbrus-analytics.at/" target="_blank" rel="noopener noreferrer">© 2022 Elbrus-Analytics -
+              All about your network
               <br class="removed-br-2"><br class="removed-br-2">
               <span id="credit">Website created and modified by Alexander Hiermann</span>
             </a>

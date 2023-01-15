@@ -7256,7 +7256,7 @@ header {
 }
 
 .section-bg-image.parallax-window.text-center.section-middle-img {
-    background-image: url(images/starting-hub_image.png);
+    background-image: url(images/team/team-banner5.jpeg);
 }
 
 @media (max-width: 992px) {
@@ -7523,8 +7523,12 @@ div.title-icon p {
     }
 }
 
-@media (max-width: 1200px) and (min-width: 993px ) {
+@media (max-width: 1200px) and (min-width: 993px) {
     #footer-contact-logos {
         display: flex;
     }
+}
+
+#header_title {
+    background: rgba(0, 0, 0, 0.8);
 }

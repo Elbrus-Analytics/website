@@ -294,7 +294,8 @@ EOL
             sudo chmod 775 /var/elbrus/shared
             sleep .2
             break;;
-        [nN] | "no" | "No" ) echo -e ${Red}skipping...${Color_Off};;
+        [nN] | "no" | "No" ) echo -e ${Red}skipping...${Color_Off}
+        break;;
         * ) echo -e ${Red}invalid response${Color_Off};;
     esac
 done
